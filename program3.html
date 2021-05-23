@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 3</title>
+</head>
+<body>
+      <link rel="stylesheet" href="Assignment3.css">
+      <title>Program_3</title>
+     <header><nav>
+          <a href="/#">HOME</a> |
+          <a href="/#">PLACES</a> |
+          <a href="/#">GALLERY</a> |
+          <a href="/#">ABOUT US</a>
+        </nav>
+      </header> 
+        <h2><u>Shashi Kumar:The modern farmer and dancer </u></h2>
+      <p id="demo"></p>
+      <script>
+      var var1 = setInterval(inTimer, 500);
+      var fs = 5; 
+      var ids = document.getElementById("demo");
+      function inTimer()
+      {
+        ids.innerHTML = 'Shashi Kumar ';
+        ids.setAttribute('style', "font-size: " + fs + "px; color:red");
+        fs += 5;
+        if (fs >= 50)
+        {
+          clearInterval(var1);
+          var2 = setInterval(deTimer, 500);
+        }
+      }
+    function deTimer()
+      {
+        fs -= 5;
+        ids.innerHTML = 'Shashi Kumar ';
+        ids.setAttribute('style', "font-size: " + fs + "px; color: blue");
+       if (fs == 5)
+        {
+          clearInterval(var2);
+          var1 = setInterval(inTimer, 500);
+        }
+      }
+</script>
+      <title>Shashi Kumar </title>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDojJOq-Dp9xFB56kRXLl2B0innA3zqP57tg&usqp=CAU" alt="Paul Walker" width="700" height="400">
+      <br>
+      <h3>by<a href="/html">Harshitha</a></h3>
+      <article>Shashi Kumar is an Indian Farmer and Dancer. He studied MSc agriculture economics at University of Agriculture Science Dharwad.Kumar has completed MSc in Agriculture from the University of Agricultural Sciences, Dharwad 
+   Shashi has won the season 6 of the Bigg Boss Kannada title. There were five finalists in this seasons. Rashmi, Kavitha, Andy and Naveen were the other four finalists in the house.However, Shashi Managed to defeat Naveen to win the prize money. Shashi was one of the strongest contestant in the show.</article>
+      <br>    
+      <section>Year:2019<br>
+               Date:27th january</section>
+       <h3><u>Reviews</u></h3>
+    <br>
+    <p style="font-weight:bold; font-size:20px">Modern farmer </p>
+    <table>
+      <tr>
+        <td>srusti</td>
+        <td> ⭐⭐⭐⭐⭐ </td>
+      </tr>
+    </table><br>
+    <p> inspiration for us </p>
+    <br>
+    <hr>
+    <br>
+
+    <p style="font-weight:bold; font-size:20px">SHASHI deserves to be the winner of BIGGBOSS😎! </p>
+    <table>
+      <tr>
+        <td>HARSHI</td>
+        <td> ⭐⭐⭐⭐ </td>
+      </tr>
+    </table><br>
+    <p> TALENTED PERSON😞 </p>
+    <br>
+    <hr><br>
+
+    <p style="font-weight:bold; font-size:20px">Modernraitha #winner </p>
+    <table>
+      <tr>
+        <td> Aishu</td>
+        <td> ⭐⭐⭐⭐ </td>
+      </tr>
+    </table><br>
+    <p>Thankyou for entertaining </p>
+  </section>
+  <br>
+        <hr>
+      </section>
+       <footer><nav>
+          <a href="/#">HOME</a> |
+          <a href="/#">PLACES</a> |
+          <a href="/#">GALLERY</a> |
+          <a href="/#">ABOUT US</a>
+        </nav>
+<br>
+<strong><i>Copyright &copy; 2021-2022 by harshitha</i></strong>
+</footer>
+</body>
+</html>
